@@ -1,0 +1,557 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+:root{
+    --fontsize:.9em;
+    --mfontsize:.6em;
+}
+body{
+    background-color: #ffffff;
+    height: 2500px;
+}
+
+
+.navbar{
+    display: inline-flex;
+    width: 100% ;
+    background-color: #ffc800;
+    position: fixed;
+    z-index: 10;
+    }
+.navbar a{ 
+    margin-top: 1em;  
+    text-decoration: none;
+    color: black;
+    font-size: var(--fontsize);
+    
+
+}
+.logo img{
+    margin-left: 2em;
+    width: 12em;
+}
+.login{
+    position: absolute;
+    left: 70%;
+}
+.india{
+    position: absolute;
+    left: 76%;
+}
+#search{
+    position: absolute;
+    left: 81%;
+}
+.menubar{
+    margin-top: 79px;
+    width: 100%;
+    height: 2em;
+    background-color: #ffc800;
+    font-size: var(--fontsize);
+    display: inline-block;
+    padding-top: 2px;
+}
+    
+.menubar button{
+    border: 0;
+    background-color: transparent;
+    font-size: var(--fontsize);
+    position: -webkit-sticky;
+}
+.menubar a{
+    text-decoration: none;
+    color: black;
+}
+.menubar button:hover{
+    color: #a80000;
+    font-size: 90%;
+}
+.menubar a:hover{
+    color: #a80000;
+    font-size: 90% ;
+}
+.b1{
+    position: absolute;
+    left: 3%;
+}
+.b2{
+    position: absolute;
+    left: 15%;
+}
+.b3{
+    position: absolute;
+    left: 25%;
+}
+.b4{
+    position: absolute;
+    left: 37%;
+}
+.b5{
+    position: absolute;
+    left: 50%;
+}
+.b7{
+    background-color: #a80000;
+    color: white;
+    border: 3px solid #a80000;
+    border-radius: 7px;
+    position: absolute;
+    left: 87%;
+    top: 25%;
+    font-size: 1em;
+    padding: 1em;
+}
+.newbutton{
+    background-color: #ffc800;
+    width: 100%;
+}
+.home img{
+    width: 100%;
+    height: 880px;
+    background-color: goldenrod;
+}
+.over-image{
+    color: white;
+    position: absolute;
+    left: 10em;
+    top: 17em;
+}
+.second-line{
+    width: 17em;
+    height: 17em;
+    background-image: linear-gradient(white, #ffcc00);
+    position: absolute;
+    top: 33em;
+    left: 1em;
+}
+.sl-2{
+    background-color: #a80000;
+    color: white;
+    border: 3px solid #a80000;
+    border-radius: 7px;
+    width: 10em;
+    height: 2em;
+    
+    margin-left: 5em;
+}
+.second-line h3{
+    display: flex;
+    font-size: 2em;
+}
+.sl-3{
+    position: absolute;
+    left: 1em;
+    font-size: 2em;
+    top: 26em;
+}
+.trdln{
+    width: 100%;
+}
+.trdln img{
+    width:90%;
+}
+.tdln-1{
+    width: 23%;
+    height: 200px;
+}
+.frthln{
+    text-align: center;
+}
+.fifthln{
+    width: 100%;
+    display: inline-flex;
+    font-size: 15px;
+}
+.fifthln img{
+    width: 100%;
+    border-radius: 9px;
+   
+}
+.fifthln a{
+    color: red;
+
+}
+.fifthln-1{
+    margin-left: 40px;
+    padding: 1em;
+    border-radius: 9%;
+    border: 1px solid grey;
+    width: 28%;
+    line-height: 35px;
+}
+.fifthln-2{
+    margin-left: 40px;
+    padding: 1em;
+    border-radius: 9%;
+    border: 1px solid grey;
+    width: 28%;
+    line-height: 35px;
+}
+.fifthln-3{
+    margin-left: 40px;
+    padding: 1em;
+    border-radius: 9%;
+    border: 1px solid grey;
+    width: 28%;
+    line-height: 35px;
+}
+.feedback{
+    transform: rotateZ(270deg);
+    position: fixed;
+}
+.feedback button{
+    position: absolute;
+    left: 110em;
+    top: 68em;
+    background-color: #a80000;
+    border-color: #a80000;
+    color:white;
+}
+.location-select{
+    height: 10em;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 60px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.location-select h4{
+    font-size: larger;
+}
+.location-select input{
+    background-color: #a80000;
+    border: 1px solid #a80000;
+    color: #ffffff;
+}
+.sixthline{
+    display: inline-flex;
+}
+.lstline{
+    margin-left: 50%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:450px){
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    .navbar{
+        width: 100%;
+        height: 4em;
+        background-color: goldenrod;
+    }
+    .navbar img{
+        width: 14em;
+    }
+    .navbar a{
+       font-size:var(--mfontsize);
+    }
+    .india{
+        display: none;
+
+    }
+    .menubar{
+        font-size: var(--mfontsize);
+        height: 4em;
+        width: 100%;
+     }
+     .newbutton{
+        font-size: var(--mfontsize);
+     }
+     .b2{
+        display: none;
+     }
+     .b5{
+        display: none;
+    }
+    .b4{
+        position: absolute;
+        left: 47%;
+    }
+    .b7{
+        position: absolute;
+        left: 0;
+        top: 10em;
+        width: 100%;
+
+    }
+    .over-image{
+        position: absolute;
+    left: 3em;
+    top: 17em;
+    font-size: 30px;
+    }
+    .second-line{
+        display: none;
+   
+    }
+   
+    .sl-3 {
+        position: absolute;
+        font-size: 20px;
+        top: 52em;
+    }
+    .frthln h3 {
+        font-size: 16px;
+    }
+    .tdln-1{
+        display: none;
+    }
+
+    .fifthln{
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+    }
+    .fifthln img{
+        width: 100%;
+       
+    }
+    .fifthln a{
+        color: red;
+    
+    }
+    .fifthln-1{
+        border: none;
+        margin-left: 5px;
+        width: 100%;
+        line-height: 15px;
+        padding: 0;
+        border-radius: 0;
+    }
+    .fifthln-2{
+        border: none;
+        margin-left: 5px;
+        width: 100%;
+        line-height: 15px;
+        padding: 0;
+        border-radius: 0;
+    }
+    .fifthln-3{
+        border: none;
+        margin-left: 5px;
+        width: 100%;
+        line-height: 15px;
+        padding: 0;
+        border-radius: 0;
+    }
+    .feedback{
+        transform: rotateZ(270deg);
+        position: fixed;
+    }
+    .location-select{
+        height: 10em;
+        width: 100%;
+        margin-top: 2px;
+        margin-left: 6px;
+       
+    }
+    .location-select h4{
+        font-size: medium;
+    }
+    .location-select input{
+        background-color: #a80000;
+        border: 1px solid #a80000;
+        color: #ffffff;
+    }
+   
+    .footer h5{
+        text-align: center;
+    }
+    .lstline{
+        margin-left: 15px;
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:900px){
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        font-size: x-small;
+
+    }
+    .navbar{
+        width: 100%;
+        height: 65px;
+        background-color: goldenrod;
+        margin: 0;
+    }
+    .navbar img{
+        width: 14em;
+    }
+    .navbar a{
+       font-size:var(--mfontsize);
+    }
+    .india{
+        display: none;
+
+    }
+    .menubar{
+        font-size: var(--mfontsize);
+        margin-top: 65px;
+        height: 4em;
+        width: 100%;
+     }
+     .newbutton{
+        font-size: var(--mfontsize);
+     }
+     .b2{
+        display: none;
+     }
+     .b5{
+        display: none;
+    }
+    .b4{
+        position: absolute;
+        left: 47%;
+    }
+    .b7{
+        position: absolute;
+        left: 0;
+        top: 6em;
+        width: 100%;
+
+    }
+    .over-image{
+        position: absolute;
+    left: 3em;
+    top: 17em;
+    font-size: 30px;
+    }
+    .second-line{
+        display: none;
+   
+    }
+    .second-line h3 {
+        display: none;
+        font-size: 30px;
+        padding-left: 85px;
+    }
+    .sl-2{
+        width: 14em;
+    }
+    .sl-3 {
+        position: absolute;
+        font-size: 20px;
+        top: 52em;
+    }
+    .frthln h3 {
+        font-size: 16px;
+    }
+    .tdln-1{
+        display: none;
+    }
+
+    .fifthln{
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+    }
+    .fifthln img{
+        width: 100%;
+       
+    }
+    .fifthln a{
+        color: red;
+    
+    }
+    .fifthln-1{
+        border: none;
+        margin-left: 5px;
+        width: 100%;
+        line-height: 15px;
+        padding: 0;
+        border-radius: 0;
+    }
+    .fifthln-2{
+        border: none;
+        margin-left: 5px;
+        width: 100%;
+        line-height: 15px;
+        padding: 0;
+        border-radius: 0;
+    }
+    .fifthln-3{
+        border: none;
+        margin-left: 5px;
+        width: 100%;
+        line-height: 15px;
+        padding: 0;
+        border-radius: 0;
+    }
+    .feedback{
+        transform: rotateZ(270deg);
+        position: fixed;
+    }
+    .location-select{
+        height: 10em;
+        width: 100%;
+        margin-top: 2px;
+        margin-left: 6px;
+        
+    }
+    .location-select h4{
+        font-size: medium;
+    }
+    .location-select input{
+        background-color: #a80000;
+        border: 1px solid #a80000;
+        color: #ffffff;
+    }
+    
+    .footer h5{
+        text-align: center;
+    }
+    
+}
+
+
+
+
+
